@@ -104,14 +104,15 @@ td:empty
     font-size: 2rem;
  }
 
-
-
-tr:nth-child(3) td:nth-child(16):hover .gelbebox
+ 
+tr:nth-child(3) td:nth-child(16):hover .gelbebox 
 {
+    
     display: block;
     
-    
-}
+ }
+
+
 
 
 
