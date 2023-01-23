@@ -84,15 +84,34 @@ tr:nth-child(7) td:nth-child(18)
     background-color: burlywood;
 }
 
-tr:nth-child(1) td:nth-child(n+2):nth-child(-n+17),
-tr:nth-child(n+2):nth-child(-n+3) td:nth-child(n+3):nth-child(-n+12),
-tr:nth-child(n+8):nth-child(-n+9) td:nth-child(n+16):nth-child(-n+18),
-tr:nth-child(n+8):nth-child(-n+9) td:nth-child(1)
+td:empty
 {
-    background-color: aliceblue;
     border: none;
 }
 
+.gelbebox
+{
+    display: none;
+    position: absolute;
+    left:805px;
+    top:100px;
+    background-color:yellow;
+    min-width: 110px;
+    min-height: 110px;
+    border-radius: 20px;
+    border: 2px solid black;
+    opacity: 0.5;
+    font-size: 2rem;
+ }
+
+
+
+tr:nth-child(3) td:nth-child(16):hover .gelbebox
+{
+    display: block;
+    
+    
+}
 
 
 
