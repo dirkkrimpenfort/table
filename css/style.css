@@ -102,15 +102,16 @@ td:empty
     border: 2px solid black;
     opacity: 0.5;
     font-size: 2rem;
+    
  }
 
  
 tr:nth-child(3) td:nth-child(16):hover .gelbebox 
 {
-    
     display: block;
-    
- }
+}
+
+td
 
 
 
